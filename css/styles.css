@@ -1152,6 +1152,42 @@ button {
 }
 
 /* ============================================
+   LANGUAGE TOGGLE
+   ============================================ */
+
+.lang-toggle {
+    position: fixed;
+    bottom: var(--space-xl);
+    right: calc(var(--space-xl) + 64px);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-lg);
+    color: var(--color-text);
+    z-index: 998;
+    transition: all var(--transition-base);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-sm);
+}
+
+.lang-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-xl);
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
+.lang-code {
+    user-select: none;
+}
+
+/* ============================================
    THEME TOGGLE
    ============================================ */
 
@@ -1291,6 +1327,11 @@ button {
     
     .mobile-bar {
         display: flex;
+    }
+    
+    .lang-toggle {
+        bottom: 80px;
+        right: calc(var(--space-xl) + 64px);
     }
     
     .theme-toggle {
