@@ -3,9 +3,9 @@
    ============================================ */
 
 const CONFIG = {
-    brandName: 'Visual Studio',
-    phone: '+1 (555) 0123',
-    email: 'hello@visualstudio.com',
+    brandName: 'Koziczak Fotografia',
+    phone: '+48 517 198 670',
+    email: 'grzegorzkoziczak@gmail.com',
     formEndpoint: 'https://formspree.io/f/xxxxxxx', // Replace with your Formspree endpoint
     socialLinks: {
         instagram: 'https://instagram.com/yourhandle',
@@ -13,7 +13,7 @@ const CONFIG = {
         youtube: 'https://youtube.com/@yourhandle',
         linkedin: 'https://linkedin.com/company/yourhandle'
     },
-    serviceArea: '100-mile radius from base location'
+    serviceArea: 'Bydgoszcz i okolice. Możliwy dojazd do innych miejsc po wcześniejszym ustaleniu'
 };
 
 /* ============================================
@@ -74,11 +74,11 @@ const TRANSLATIONS = {
                 drone: 'Drone'
             },
             items: {
-                item1: { title: 'Modern Luxury Home', description: 'Interior and exterior photography for luxury residential listing' },
+                item1: { title: 'Private Residence Living Room', description: 'Elegant living space in private residence' },
                 item2: { title: 'Downtown Office Space', description: 'Corporate office photography for commercial real estate' },
-                item3: { title: 'Aerial Property View', description: 'Drone photography showcasing property development' },
+                item3: { title: 'Luxury Gold & Black Bathroom', description: 'Premium bathroom design with gold and black accents' },
                 item4: { title: 'Apartment Complex', description: 'Multi-unit residential property documentation' },
-                item5: { title: 'Industrial Warehouse', description: 'Large-scale industrial facility photography' },
+                item5: { title: 'Contemporary Bathroom Design', description: 'Modern bathroom interior with sophisticated gold and black palette' },
                 item6: { title: 'Residential Video Tour', description: 'Professional walkthrough video production' },
                 item7: { title: 'Business Headshots', description: 'Corporate headshot photography session' },
                 item8: { title: 'Aerial Site Survey', description: 'Drone documentation for construction site' },
@@ -160,7 +160,7 @@ const TRANSLATIONS = {
             phone: 'Phone',
             email: 'Email',
             serviceArea: 'Service Area',
-            serviceAreaText: '100-mile radius from base location',
+            serviceAreaText: 'Bydgoszcz and surrounding areas<br>Travel to other locations possible upon prior arrangement',
             form: {
                 name: 'Name',
                 email: 'Email',
@@ -177,7 +177,7 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2024 Visual Studio. All rights reserved.'
+            copyright: '© 2024 Koziczak Fotografia. All rights reserved.'
         },
         mobile: {
             call: 'Call',
@@ -238,11 +238,11 @@ const TRANSLATIONS = {
                 drone: 'Dron'
             },
             items: {
-                item1: { title: 'Nowoczesny Dom Luksusowy', description: 'Fotografia wnętrz i zewnętrz dla luksusowej oferty mieszkaniowej' },
+                item1: { title: 'Salon w Mieszkaniu Prywatnym', description: 'Elegancka przestrzeń dzienna w mieszkaniu prywatnym' },
                 item2: { title: 'Biuro w Centrum', description: 'Fotografia biurowa dla nieruchomości komercyjnych' },
-                item3: { title: 'Widok Nieruchomości z Lotu Ptaka', description: 'Fotografia dronem prezentująca rozwój nieruchomości' },
+                item3: { title: 'Luksusowa Łazienka w Złocie i Czerni', description: 'Ekskluzywny design łazienki z akcentami złota i czerni' },
                 item4: { title: 'Kompleks Mieszkaniowy', description: 'Dokumentacja wielorodzinnej nieruchomości mieszkaniowej' },
-                item5: { title: 'Magazyn Przemysłowy', description: 'Fotografia dużego obiektu przemysłowego' },
+                item5: { title: 'Nowoczesna Łazienka', description: 'Współczesne wnętrze łazienki z wyrafinowaną paletą złota i czerni' },
                 item6: { title: 'Wideo Spacerowe Mieszkaniowe', description: 'Profesjonalna produkcja filmów spacerowych' },
                 item7: { title: 'Zdjęcia Korporacyjne', description: 'Sesja zdjęciowa portretów korporacyjnych' },
                 item8: { title: 'Inspekcja Terenu z Drona', description: 'Dokumentacja dronem placu budowy' },
@@ -324,7 +324,7 @@ const TRANSLATIONS = {
             phone: 'Telefon',
             email: 'Email',
             serviceArea: 'Obszar Obsługi',
-            serviceAreaText: 'Promień 100 mil od lokalizacji bazowej',
+            serviceAreaText: 'Bydgoszcz i okolice<br>Możliwy dojazd do innych miejsc po wcześniejszym ustaleniu',
             form: {
                 name: 'Imię',
                 email: 'Email',
@@ -341,7 +341,7 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2024 Visual Studio. Wszelkie prawa zastrzeżone.'
+            copyright: '© 2024 Koziczak Fotografia. Wszelkie prawa zastrzeżone.'
         },
         mobile: {
             call: 'Zadzwoń',
@@ -356,11 +356,11 @@ const TRANSLATIONS = {
    ============================================ */
 
 const PORTFOLIO_DATA = [
-    { id: 1, title: 'Modern Luxury Home', category: 'real-estate', image: 'assets/img/portfolio/01.webp', description: 'Interior and exterior photography for luxury residential listing' },
+    { id: 1, title: 'Private Residence Living Room', category: 'real-estate', image: 'assets/img/portfolio/01.jpg', description: 'Elegant living space in private residence' },
     { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/02.webp', description: 'Corporate office photography for commercial real estate' },
-    { id: 3, title: 'Aerial Property View', category: 'drone', image: 'assets/img/portfolio/03.webp', description: 'Drone photography showcasing property development' },
+    { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'real-estate', image: 'assets/img/portfolio/03.jpg', description: 'Premium bathroom design with gold and black accents' },
     { id: 4, title: 'Apartment Complex', category: 'real-estate', image: 'assets/img/portfolio/04.webp', description: 'Multi-unit residential property documentation' },
-    { id: 5, title: 'Industrial Warehouse', category: 'business', image: 'assets/img/portfolio/05.webp', description: 'Large-scale industrial facility photography' },
+    { id: 5, title: 'Contemporary Bathroom Design', category: 'real-estate', image: 'assets/img/portfolio/05.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
     { id: 6, title: 'Residential Video Tour', category: 'real-estate', image: 'assets/img/portfolio/06.webp', description: 'Professional walkthrough video production' },
     { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/07.webp', description: 'Corporate headshot photography session' },
     { id: 8, title: 'Aerial Site Survey', category: 'drone', image: 'assets/img/portfolio/08.webp', description: 'Drone documentation for construction site' },
@@ -394,7 +394,7 @@ function prefersReducedMotion() {
    LANGUAGE SYSTEM
    ============================================ */
 
-let currentLang = localStorage.getItem('language') || 'en';
+let currentLang = localStorage.getItem('language') || 'pl';
 
 function translate(key, lang = currentLang) {
     const keys = key.split('.');
@@ -416,6 +416,9 @@ function updateTranslations() {
         if (translation) {
             if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
                 element.placeholder = translation;
+            } else if (translation.includes('<br>') || translation.includes('<')) {
+                // Use innerHTML for elements that contain HTML tags
+                element.innerHTML = translation;
             } else {
                 element.textContent = translation;
             }
@@ -427,10 +430,10 @@ function updateTranslations() {
     const metaTitle = document.querySelector('title');
     if (currentLang === 'pl') {
         if (metaDescription) metaDescription.setAttribute('content', 'Profesjonalne usługi fotograficzne i wideo dla deweloperów nieruchomości, agentów i firm. Fotografia dronem, filmy nieruchomości i obrazy komercyjne.');
-        if (metaTitle) metaTitle.textContent = 'Visual Studio - Profesjonalna Fotografia i Wideo dla Nieruchomości i Biznesu';
+        if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Profesjonalna Fotografia i Wideo dla Nieruchomości i Biznesu';
     } else {
         if (metaDescription) metaDescription.setAttribute('content', 'Professional photo and video services for real estate developers, agents, and businesses. Drone photography, property videos, and commercial imagery.');
-        if (metaTitle) metaTitle.textContent = 'Visual Studio - Professional Photo & Video for Real Estate & Business';
+        if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Professional Photo & Video for Real Estate & Business';
     }
     
     // Update portfolio data
@@ -742,11 +745,11 @@ function initScrollSpy() {
 function getTranslatedPortfolioData() {
     const portfolio = TRANSLATIONS[currentLang].portfolio.items;
     return [
-        { id: 1, title: portfolio.item1.title, category: 'real-estate', image: 'assets/img/portfolio/01.webp', description: portfolio.item1.description },
+        { id: 1, title: portfolio.item1.title, category: 'real-estate', image: 'assets/img/portfolio/01.jpg', description: portfolio.item1.description },
         { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/02.webp', description: portfolio.item2.description },
-        { id: 3, title: portfolio.item3.title, category: 'drone', image: 'assets/img/portfolio/03.webp', description: portfolio.item3.description },
+        { id: 3, title: portfolio.item3.title, category: 'real-estate', image: 'assets/img/portfolio/03.jpg', description: portfolio.item3.description },
         { id: 4, title: portfolio.item4.title, category: 'real-estate', image: 'assets/img/portfolio/04.webp', description: portfolio.item4.description },
-        { id: 5, title: portfolio.item5.title, category: 'business', image: 'assets/img/portfolio/05.webp', description: portfolio.item5.description },
+        { id: 5, title: portfolio.item5.title, category: 'real-estate', image: 'assets/img/portfolio/05.jpg', description: portfolio.item5.description },
         { id: 6, title: portfolio.item6.title, category: 'real-estate', image: 'assets/img/portfolio/06.webp', description: portfolio.item6.description },
         { id: 7, title: portfolio.item7.title, category: 'business', image: 'assets/img/portfolio/07.webp', description: portfolio.item7.description },
         { id: 8, title: portfolio.item8.title, category: 'drone', image: 'assets/img/portfolio/08.webp', description: portfolio.item8.description },

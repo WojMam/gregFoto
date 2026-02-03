@@ -1,4 +1,4 @@
-# Visual Studio - Professional Photo & Video Portfolio Website
+# Koziczak Fotografia - Professional Photo & Video Portfolio Website
 
 A complete, production-ready single-page website for a professional photo and video creator specializing in real estate and business photography.
 
@@ -40,8 +40,8 @@ Edit `/js/main.js` and update the `CONFIG` object:
 ```javascript
 const CONFIG = {
     brandName: 'Your Brand Name',
-    phone: '+1 (555) 0123',
-    email: 'your@email.com',
+    phone: '+48 517 198 670',
+    email: 'grzegorzkoziczak@gmail.com',
     formEndpoint: 'https://formspree.io/f/yourformid',
     // ... social links
 };

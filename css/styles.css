@@ -233,9 +233,22 @@ button {
 }
 
 .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--color-text);
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-brand-text {
+    display: inline-block;
 }
 
 .nav-menu {
@@ -387,6 +400,27 @@ button {
     text-align: center;
     max-width: 800px;
     padding: var(--space-4xl) var(--container-padding);
+}
+
+.hero-logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto var(--space-3xl);
+    object-fit: contain;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hero-title {
@@ -1289,6 +1323,19 @@ button {
     
     .hero-content {
         padding: var(--space-2xl) var(--container-padding);
+    }
+    
+    .hero-logo {
+        max-width: 200px;
+        margin-bottom: var(--space-2xl);
+    }
+    
+    .nav-logo {
+        height: 32px;
+    }
+    
+    .nav-brand-text {
+        font-size: var(--font-size-base);
     }
     
     .hero-cta {
