@@ -32,8 +32,8 @@ const TRANSLATIONS = {
             getQuote: 'Get a quote'
         },
         hero: {
-            title: 'Photo & video that sells property.',
-            subtitle: 'Professional imagery for developers, agents, and businesses',
+            title: 'Visual storytelling for real estate.',
+            subtitle: 'High-quality photography of apartments, houses, and commercial spaces.',
             getQuote: 'Get a quote',
             seePortfolio: 'See portfolio',
             turnaround: '24–72h turnaround',
@@ -49,13 +49,13 @@ const TRANSLATIONS = {
                 link: 'Ask about availability'
             },
             video: {
-                title: 'Property Video & Reels',
+                title: 'Property videos and reels',
                 items: ['Walkthrough videos', 'Social media reels', 'Professional editing', 'Music & voiceover options'],
                 link: 'Ask about availability'
             },
             business: {
                 title: 'Business & Industrial',
-                items: ['Office spaces', 'Factories & warehouses', 'Corporate headshots', 'Brand documentation'],
+                items: ['Office spaces', 'Factories & warehouses', 'Equipment and machinery photography', 'Brand documentation'],
                 link: 'Ask about availability'
             },
             drone: {
@@ -109,7 +109,7 @@ const TRANSLATIONS = {
             }
         },
         testimonials: {
-            title: 'What Clients Say',
+            title: 'What clients say',
             subtitle: 'Trusted by developers, agents, and business owners',
             testimonial1: {
                 text: '"The quality of the photos exceeded our expectations. Every listing we\'ve used their work for has seen faster showings and offers."',
@@ -135,15 +135,15 @@ const TRANSLATIONS = {
             subtitle: 'Common questions about our services and process',
             q1: {
                 question: 'What\'s the typical turnaround time?',
-                answer: 'Standard delivery is 24–72 hours after the shoot, depending on project scope. Rush delivery (12–24 hours) is available for an additional fee. Video projects typically require 3–5 business days for editing.'
+                answer: 'Standard delivery is 24–48 hours after the shoot, depending on project scope. Rush delivery (12–24 hours) is available for an additional fee. Larger video projects typically require 3 business days for editing.'
             },
             q2: {
                 question: 'How do you handle pricing?',
-                answer: 'Pricing is project-based and depends on property size, number of shots, video length, and specific requirements. We provide detailed quotes after understanding your needs. Packages are available for recurring clients.'
+                answer: 'Pricing is determined individually for each project and depends on property size, number of shots, video length, and specific requirements. After a brief conversation, we prepare a precise quote tailored to your needs. Estimated service prices below:\n\n350 PLN\nSmall apartment up to 40 m² (studio)\n10–15 edited photos\nInteriors + details + building\n\n450 PLN\nApartment 40–90 m²\n15–25 edited photos\nInteriors + details + building\n\n700 PLN\nHouse / apartment above 90 m²\n25–30 edited photos\nInteriors + details + building\n\n150 PLN\nVertical video for social media (30–60 seconds)\nBrief presentation of property and area\nPerfect format for Instagram Reels / TikTok / YouTube Shorts'
             },
             q3: {
                 question: 'What do I need to prepare before the shoot?',
-                answer: 'For real estate: ensure the property is clean, staged (if applicable), and all lights are working. For businesses: coordinate access, notify staff, and identify key areas to highlight. We\'ll send a preparation checklist before your shoot date.'
+                answer: 'For private properties:\nEnsure the space is clean, organized, and ready for presentation. Remove all personal items that are not part of the decor — cosmetics, clothes, documents, toys, cleaning supplies, or random clutter. The interior should look like it\'s prepared for a potential buyer\'s visit: aesthetic, neutral, and free of distractions. Make sure all lights are working, and blinds and curtains are set to maximize room lighting.\n\nFor businesses and commercial spaces:\nPrepare the space to reflect the professional nature of your business. Ensure cleanliness of surfaces, floors, furniture, and windows — smudges and fingerprints are very visible in photos. Remove unnecessary items from desks and workstations, and if possible, organize cables and office supplies. It\'s worth informing staff about the session in advance, arrange access to the space, and indicate key areas that should be highlighted in photos or video.'
             },
             q4: {
                 question: 'What are the licensing terms?',
@@ -151,7 +151,7 @@ const TRANSLATIONS = {
             },
             q5: {
                 question: 'Do you travel for shoots?',
-                answer: 'Yes, we serve a 100-mile radius from our base location. Travel fees apply for distances over 50 miles. For projects beyond this range, we can discuss custom arrangements. All travel costs are transparently included in your quote.'
+                answer: 'Absolutely. Additional travel fees apply for distances over 50km from Bydgoszcz. For projects beyond this range, we discuss travel costs individually.'
             }
         },
         contact: {
@@ -160,7 +160,7 @@ const TRANSLATIONS = {
             phone: 'Phone',
             email: 'Email',
             serviceArea: 'Service Area',
-            serviceAreaText: 'Bydgoszcz and surrounding areas<br>Travel to other locations possible upon prior arrangement',
+            serviceAreaText: 'Bydgoszcz and surrounding areas<br>Travel possible upon prior arrangement',
             form: {
                 name: 'Name',
                 email: 'Email',
@@ -432,7 +432,7 @@ function updateTranslations() {
         if (metaDescription) metaDescription.setAttribute('content', 'Profesjonalne usługi fotograficzne i wideo dla deweloperów nieruchomości, agentów i firm. Fotografia dronem, filmy nieruchomości i obrazy komercyjne.');
         if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Profesjonalna Fotografia i Wideo dla Nieruchomości i Biznesu';
     } else {
-        if (metaDescription) metaDescription.setAttribute('content', 'Professional photo and video services for real estate developers, agents, and businesses. Drone photography, property videos, and commercial imagery.');
+        if (metaDescription) metaDescription.setAttribute('content', 'High-quality photography of apartments, houses, and commercial spaces. Drone photography, property videos, and commercial imagery.');
         if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Professional Photo & Video for Real Estate & Business';
     }
     
