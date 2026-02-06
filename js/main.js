@@ -6,7 +6,8 @@ const CONFIG = {
     brandName: 'Koziczak Fotografia',
     phone: '+48 517 198 670',
     email: 'grzegorzkoziczak@gmail.com',
-    formEndpoint: 'https://formspree.io/f/xxxxxxx', // Replace with your Formspree endpoint
+    formEndpoint: 'https://api.web3forms.com/submit',
+    web3formsAccessKey: '6e13cc44-b082-42a8-a1b1-64a8e70c389e',
     socialLinks: {
         instagram: 'https://instagram.com/yourhandle',
         tiktok: 'https://tiktok.com/@yourhandle',
@@ -173,7 +174,8 @@ const TRANSLATIONS = {
                 error: 'Sorry, there was an error sending your message. Please try again or contact us directly.',
                 errorField: 'Please fix the errors above',
                 errorName: 'This field is required',
-                errorEmail: 'Please enter a valid email address'
+                errorEmail: 'Please enter a valid email address',
+                subject: 'New contact form message from'
             }
         },
         footer: {
@@ -337,7 +339,8 @@ const TRANSLATIONS = {
                 error: 'Przepraszamy, wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub skontaktuj się z nami bezpośrednio.',
                 errorField: 'Proszę poprawić błędy powyżej',
                 errorName: 'To pole jest wymagane',
-                errorEmail: 'Proszę podać prawidłowy adres email'
+                errorEmail: 'Proszę podać prawidłowy adres email',
+                subject: 'Nowa wiadomość z formularza kontaktowego od'
             }
         },
         footer: {
@@ -1051,6 +1054,9 @@ function initContactForm() {
         
         try {
             const formData = new FormData(form);
+            // Add subject for Web3Forms (translated based on current language)
+            const subjectText = `${contact.subject} ${nameField.value}`;
+            formData.append('subject', subjectText);
             const response = await fetch(CONFIG.formEndpoint, {
                 method: 'POST',
                 body: formData,
