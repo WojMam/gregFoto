@@ -13,7 +13,7 @@ const CONFIG = {
         youtube: 'https://youtube.com/@yourhandle',
         linkedin: 'https://linkedin.com/company/yourhandle'
     },
-    serviceArea: 'Bydgoszcz i okolice. Możliwy dojazd do innych miejsc po wcześniejszym ustaleniu'
+    serviceArea: 'Bydgoszcz i okolice. Możliwy dojazd po wcześniejszym ustaleniu'
 };
 
 /* ============================================
@@ -177,7 +177,7 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2024 Koziczak Fotografia. All rights reserved.'
+            copyright: '© 2026 Koziczak Fotografia. All rights reserved.'
         },
         mobile: {
             call: 'Call',
@@ -196,8 +196,8 @@ const TRANSLATIONS = {
             getQuote: 'Zapytaj o ofertę'
         },
         hero: {
-            title: 'Zdjęcia i filmy, które sprzedają nieruchomości.',
-            subtitle: 'Profesjonalne obrazy dla deweloperów, agentów i firm',
+            title: 'Wizualny storytelling dla nieruchomości.',
+            subtitle: 'Wysokiej jakości fotografia mieszkań, domów i przestrzeni komercyjnych.',
             getQuote: 'Zapytaj o ofertę',
             seePortfolio: 'Zobacz portfolio',
             turnaround: 'Realizacja 24–72h',
@@ -213,13 +213,13 @@ const TRANSLATIONS = {
                 link: 'Zapytaj o dostępność'
             },
             video: {
-                title: 'Filmy i Reels Nieruchomości',
+                title: 'Filmy i rolki nieruchomości',
                 items: ['Filmy spacerowe', 'Reels do mediów społecznościowych', 'Profesjonalna edycja', 'Muzyka i lektorskie opcje'],
                 link: 'Zapytaj o dostępność'
             },
             business: {
                 title: 'Biznes i Przemysł',
-                items: ['Przestrzenie biurowe', 'Fabryki i magazyny', 'Zdjęcia korporacyjne', 'Dokumentacja marki'],
+                items: ['Przestrzenie biurowe', 'Fabryki i magazyny', 'Zdjęcia sprzętu i maszyn', 'Dokumentacja marki'],
                 link: 'Zapytaj o dostępność'
             },
             drone: {
@@ -273,7 +273,7 @@ const TRANSLATIONS = {
             }
         },
         testimonials: {
-            title: 'Co Mówią Klienci',
+            title: 'Co mówią Klienci',
             subtitle: 'Zaufali nam deweloperzy, agenci i właściciele firm',
             testimonial1: {
                 text: '"Jakość zdjęć przekroczyła nasze oczekiwania. Każda oferta, w której wykorzystaliśmy ich pracę, przyniosła szybsze pokazy i oferty."',
@@ -299,15 +299,15 @@ const TRANSLATIONS = {
             subtitle: 'Typowe pytania dotyczące naszych usług i procesu',
             q1: {
                 question: 'Jaki jest typowy czas realizacji?',
-                answer: 'Standardowa dostawa to 24–72 godziny po sesji, w zależności od zakresu projektu. Ekspresowa dostawa (12–24 godziny) jest dostępna za dodatkową opłatą. Projekty wideo zazwyczaj wymagają 3–5 dni roboczych na edycję.'
+                answer: 'Standardowa dostawa to 24–48 godziny po sesji, w zależności od zakresu projektu. Ekspresowa dostawa (12–24 godziny) jest dostępna za dodatkową opłatą. Większe projekty wideo zazwyczaj wymagają 3 dni roboczych na edycję.'
             },
             q2: {
                 question: 'Jak wygląda wycena?',
-                answer: 'Ceny są ustalane indywidualnie dla projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo i konkretnych wymagań. Oferujemy szczegółowe wyceny po zrozumieniu Twoich potrzeb. Pakiety są dostępne dla stałych klientów.'
+                answer: 'Ceny są ustalane indywidualnie dla każdego projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo oraz specyficznych wymagań. Po krótkiej rozmowie przygotowujemy precyzyjną wycenę dopasowaną do Twoich potrzeb. Szacunkowe ceny usług poniżej:\n\n350 zł\nMałe mieszkanie do 40 m² (kawalerka)\n10–15 obrobionych zdjęć\nWnętrza + detale + budynek\n\n450 zł\nMieszkanie 40–90 m²\n15–25 obrobionych zdjęć\nWnętrza + detale + budynek\n\n700 zł\nDom / apartament powyżej 90 m²\n25–30 obrobionych zdjęć\nWnętrza + detale + budynek\n\n150 zł\nWideo pionowe na social media (30–60 sekund)\nKrόtka prezentacja nieruchomości i okolicy\nFormat idealny do Instagram Reels / TikTok / YouTube Shorts'
             },
             q3: {
                 question: 'Co muszę przygotować przed sesją?',
-                answer: 'Dla nieruchomości: upewnij się, że nieruchomość jest czysta, wystylizowana (jeśli dotyczy) i wszystkie światła działają. Dla firm: skoordynuj dostęp, powiadom personel i określ kluczowe obszary do podkreślenia. Wyślemy listę kontrolną przed datą sesji.'
+                answer: 'Dla nieruchomości prywatnych:\nZadbaj o to, aby przestrzeń była czysta, uporządkowana i gotowa do prezentacji. Usuń wszystkie przedmioty osobiste, które nie są elementem wystroju — kosmetyki, ubrania, dokumenty, zabawki, środki czystości czy przypadkowe drobiazgi. Wnętrze powinno wyglądać jak przygotowane do wizyty potencjalnego kupującego: estetyczne, neutralne i pozbawione rozpraszaczy. Upewnij się, że wszystkie światła działają, a rolety i zasłony są ustawione tak, aby maksymalnie doświetlić pomieszczenia.\n\nDla firm i przestrzeni komercyjnych:\nPrzygotuj miejsce tak, aby odzwierciedlało profesjonalny charakter Twojej działalności. Zadbaj o czystość powierzchni, podłóg, mebli oraz szyb — smugi i odciski palców są bardzo widoczne na zdjęciach. Usuń zbędne przedmioty z blatów i stanowisk pracy, a jeśli to możliwe, uporządkuj kable i materiały biurowe. Warto wcześniej poinformować personel o sesji, ustalić dostęp do przestrzeni oraz wskazać kluczowe obszary, które mają zostać podkreślone na zdjęciach lub wideo.'
             },
             q4: {
                 question: 'Jakie są warunki licencyjne?',
@@ -315,7 +315,7 @@ const TRANSLATIONS = {
             },
             q5: {
                 question: 'Czy podróżujecie na sesje?',
-                answer: 'Tak, obsługujemy obszar w promieniu 100 mil od naszej lokalizacji bazowej. Opłaty za podróż obowiązują dla odległości powyżej 50 mil. Dla projektów poza tym zakresem możemy omówić indywidualne ustalenia. Wszystkie koszty podróży są przejrzyście uwzględnione w wycenie.'
+                answer: 'No pewnie. Dodatkowe opłaty za podróż obowiązują przy odległości powyżej 50km od Bydgoszczy. Dla projektów poza tym zakresem omawiamy koszty podróży indywidualnie.'
             }
         },
         contact: {
@@ -324,7 +324,7 @@ const TRANSLATIONS = {
             phone: 'Telefon',
             email: 'Email',
             serviceArea: 'Obszar Obsługi',
-            serviceAreaText: 'Bydgoszcz i okolice<br>Możliwy dojazd do innych miejsc po wcześniejszym ustaleniu',
+            serviceAreaText: 'Bydgoszcz i okolice<br>Możliwy dojazd po wcześniejszym ustaleniu',
             form: {
                 name: 'Imię',
                 email: 'Email',
@@ -341,7 +341,7 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2024 Koziczak Fotografia. Wszelkie prawa zastrzeżone.'
+            copyright: '© 2026 Koziczak Fotografia. Wszelkie prawa zastrzeżone.'
         },
         mobile: {
             call: 'Zadzwoń',
