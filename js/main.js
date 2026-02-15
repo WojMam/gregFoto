@@ -70,9 +70,9 @@ const TRANSLATIONS = {
             subtitle: 'Recent work across real estate, commercial, and aerial projects',
             filters: {
                 all: 'All',
-                realEstate: 'Real Estate',
-                business: 'Business',
-                drone: 'Drone'
+                interiors: 'Interiors',
+                architecture: 'Architecture',
+                business: 'Business'
             },
             items: {
                 item1: { title: 'Private Residence Living Room', description: 'Elegant living space in private residence' },
@@ -179,7 +179,8 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2026 Koziczak Fotografia. All rights reserved.'
+            copyright: '© 2026 Koziczak Fotografia. All rights reserved.',
+            inPreparation: 'This site is under construction. Content may be updated.'
         },
         mobile: {
             call: 'Call',
@@ -235,9 +236,9 @@ const TRANSLATIONS = {
             subtitle: 'Najnowsze projekty z zakresu nieruchomości, komercyjne i lotnicze',
             filters: {
                 all: 'Wszystkie',
-                realEstate: 'Nieruchomości',
-                business: 'Biznes',
-                drone: 'Dron'
+                interiors: 'Wnętrza',
+                architecture: 'Architektura',
+                business: 'Biznes'
             },
             items: {
                 item1: { title: 'Salon w Mieszkaniu Prywatnym', description: 'Elegancka przestrzeń dzienna w mieszkaniu prywatnym' },
@@ -344,7 +345,8 @@ const TRANSLATIONS = {
             }
         },
         footer: {
-            copyright: '© 2026 Koziczak Fotografia. Wszelkie prawa zastrzeżone.'
+            copyright: '© 2026 Koziczak Fotografia. Wszelkie prawa zastrzeżone.',
+            inPreparation: 'Strona w przygotowaniu. Treści mogą się zmieniać.'
         },
         mobile: {
             call: 'Zadzwoń',
@@ -359,18 +361,18 @@ const TRANSLATIONS = {
    ============================================ */
 
 const PORTFOLIO_DATA = [
-    { id: 1, title: 'Private Residence Living Room', category: 'real-estate', image: 'assets/img/portfolio/01.jpg', description: 'Elegant living space in private residence' },
+    { id: 1, title: 'Private Residence Living Room', category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: 'Elegant living space in private residence' },
     { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/02.webp', description: 'Corporate office photography for commercial real estate' },
-    { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'real-estate', image: 'assets/img/portfolio/03.jpg', description: 'Premium bathroom design with gold and black accents' },
-    { id: 4, title: 'Apartment Complex', category: 'real-estate', image: 'assets/img/portfolio/04.webp', description: 'Multi-unit residential property documentation' },
-    { id: 5, title: 'Contemporary Bathroom Design', category: 'real-estate', image: 'assets/img/portfolio/05.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
-    { id: 6, title: 'Residential Video Tour', category: 'real-estate', image: 'assets/img/portfolio/06.webp', description: 'Professional walkthrough video production' },
+    { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: 'Premium bathroom design with gold and black accents' },
+    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/04.webp', description: 'Multi-unit residential property documentation' },
+    { id: 5, title: 'Contemporary Bathroom Design', category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
+    { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/06.webp', description: 'Professional walkthrough video production' },
     { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/07.webp', description: 'Corporate headshot photography session' },
-    { id: 8, title: 'Aerial Site Survey', category: 'drone', image: 'assets/img/portfolio/08.webp', description: 'Drone documentation for construction site' },
-    { id: 9, title: 'Luxury Condo', category: 'real-estate', image: 'assets/img/portfolio/09.webp', description: 'High-end condominium interior photography' },
+    { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/08.webp', description: 'Drone documentation for construction site' },
+    { id: 9, title: 'Luxury Condo', category: 'interiors', image: 'assets/img/portfolio/09.webp', description: 'High-end condominium interior photography' },
     { id: 10, title: 'Factory Interior', category: 'business', image: 'assets/img/portfolio/10.webp', description: 'Manufacturing facility documentation' },
-    { id: 11, title: 'Property Development', category: 'drone', image: 'assets/img/portfolio/11.webp', description: 'Aerial view of new development project' },
-    { id: 12, title: 'Commercial Building', category: 'business', image: 'assets/img/portfolio/12.webp', description: 'Exterior and interior commercial photography' }
+    { id: 11, title: 'Property Development', category: 'architecture', image: 'assets/img/portfolio/11.webp', description: 'Aerial view of new development project' },
+    { id: 12, title: 'Commercial Building', category: 'architecture', image: 'assets/img/portfolio/12.webp', description: 'Exterior and interior commercial photography' }
 ];
 
 /* ============================================
@@ -477,9 +479,9 @@ function updatePortfolioTranslations() {
     filterButtons.forEach(btn => {
         const filter = btn.getAttribute('data-filter');
         if (filter === 'all') btn.textContent = portfolio.filters.all;
-        else if (filter === 'real-estate') btn.textContent = portfolio.filters.realEstate;
+        else if (filter === 'interiors') btn.textContent = portfolio.filters.interiors;
+        else if (filter === 'architecture') btn.textContent = portfolio.filters.architecture;
         else if (filter === 'business') btn.textContent = portfolio.filters.business;
-        else if (filter === 'drone') btn.textContent = portfolio.filters.drone;
     });
     
     // Re-render portfolio with new translations
@@ -570,10 +572,11 @@ function updateFAQTranslations() {
     const items = document.querySelectorAll('.faq-item');
     
     if (items.length === 5) {
-        items[0].querySelector('.faq-question span').textContent = faq.q1.question;
-        items[0].querySelector('.faq-answer p').textContent = faq.q1.answer;
-        items[1].querySelector('.faq-question span').textContent = faq.q2.question;
-        items[1].querySelector('.faq-answer p').textContent = faq.q2.answer;
+        // Order: pricing first (q2), then turnaround (q1), prepare (q3), licensing (q4), travel (q5)
+        items[0].querySelector('.faq-question span').textContent = faq.q2.question;
+        items[0].querySelector('.faq-answer p').textContent = faq.q2.answer;
+        items[1].querySelector('.faq-question span').textContent = faq.q1.question;
+        items[1].querySelector('.faq-answer p').textContent = faq.q1.answer;
         items[2].querySelector('.faq-question span').textContent = faq.q3.question;
         items[2].querySelector('.faq-answer p').textContent = faq.q3.answer;
         items[3].querySelector('.faq-question span').textContent = faq.q4.question;
@@ -625,19 +628,9 @@ function initLanguageToggle() {
    ============================================ */
 
 function initThemeToggle() {
-    const themeToggle = document.getElementById('themeToggle');
     const html = document.documentElement;
-    
-    // Get saved theme or default to light
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    html.setAttribute('data-theme', savedTheme);
-    
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        html.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
+    // Zawsze tryb ciemny, bez przełączania
+    html.setAttribute('data-theme', 'dark');
 }
 
 /* ============================================
@@ -748,18 +741,18 @@ function initScrollSpy() {
 function getTranslatedPortfolioData() {
     const portfolio = TRANSLATIONS[currentLang].portfolio.items;
     return [
-        { id: 1, title: portfolio.item1.title, category: 'real-estate', image: 'assets/img/portfolio/01.jpg', description: portfolio.item1.description },
+        { id: 1, title: portfolio.item1.title, category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: portfolio.item1.description },
         { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/02.webp', description: portfolio.item2.description },
-        { id: 3, title: portfolio.item3.title, category: 'real-estate', image: 'assets/img/portfolio/03.jpg', description: portfolio.item3.description },
-        { id: 4, title: portfolio.item4.title, category: 'real-estate', image: 'assets/img/portfolio/04.webp', description: portfolio.item4.description },
-        { id: 5, title: portfolio.item5.title, category: 'real-estate', image: 'assets/img/portfolio/05.jpg', description: portfolio.item5.description },
-        { id: 6, title: portfolio.item6.title, category: 'real-estate', image: 'assets/img/portfolio/06.webp', description: portfolio.item6.description },
+        { id: 3, title: portfolio.item3.title, category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: portfolio.item3.description },
+        { id: 4, title: portfolio.item4.title, category: 'architecture', image: 'assets/img/portfolio/04.webp', description: portfolio.item4.description },
+        { id: 5, title: portfolio.item5.title, category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: portfolio.item5.description },
+        { id: 6, title: portfolio.item6.title, category: 'interiors', image: 'assets/img/portfolio/06.webp', description: portfolio.item6.description },
         { id: 7, title: portfolio.item7.title, category: 'business', image: 'assets/img/portfolio/07.webp', description: portfolio.item7.description },
-        { id: 8, title: portfolio.item8.title, category: 'drone', image: 'assets/img/portfolio/08.webp', description: portfolio.item8.description },
-        { id: 9, title: portfolio.item9.title, category: 'real-estate', image: 'assets/img/portfolio/09.webp', description: portfolio.item9.description },
+        { id: 8, title: portfolio.item8.title, category: 'architecture', image: 'assets/img/portfolio/08.webp', description: portfolio.item8.description },
+        { id: 9, title: portfolio.item9.title, category: 'interiors', image: 'assets/img/portfolio/09.webp', description: portfolio.item9.description },
         { id: 10, title: portfolio.item10.title, category: 'business', image: 'assets/img/portfolio/10.webp', description: portfolio.item10.description },
-        { id: 11, title: portfolio.item11.title, category: 'drone', image: 'assets/img/portfolio/11.webp', description: portfolio.item11.description },
-        { id: 12, title: portfolio.item12.title, category: 'business', image: 'assets/img/portfolio/12.webp', description: portfolio.item12.description }
+        { id: 11, title: portfolio.item11.title, category: 'architecture', image: 'assets/img/portfolio/11.webp', description: portfolio.item11.description },
+        { id: 12, title: portfolio.item12.title, category: 'architecture', image: 'assets/img/portfolio/12.webp', description: portfolio.item12.description }
     ];
 }
 
@@ -775,9 +768,9 @@ function initPortfolio() {
     filterButtons.forEach(btn => {
         const filter = btn.getAttribute('data-filter');
         if (filter === 'all') btn.textContent = portfolio.filters.all;
-        else if (filter === 'real-estate') btn.textContent = portfolio.filters.realEstate;
+        else if (filter === 'interiors') btn.textContent = portfolio.filters.interiors;
+        else if (filter === 'architecture') btn.textContent = portfolio.filters.architecture;
         else if (filter === 'business') btn.textContent = portfolio.filters.business;
-        else if (filter === 'drone') btn.textContent = portfolio.filters.drone;
     });
     
     // Render portfolio items
@@ -791,9 +784,9 @@ function initPortfolio() {
             portfolioItem.setAttribute('data-index', index);
             portfolioItem.setAttribute('tabindex', '0');
             
-            const categoryText = item.category === 'real-estate' ? portfolio.filters.realEstate : 
-                                 item.category === 'business' ? portfolio.filters.business : 
-                                 portfolio.filters.drone;
+            const categoryText = item.category === 'interiors' ? portfolio.filters.interiors : 
+                                 item.category === 'architecture' ? portfolio.filters.architecture : 
+                                 portfolio.filters.business;
             
             portfolioItem.innerHTML = `
                 <img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\'%3E%3Crect fill=\'%23f3f4f6\' width=\'400\' height=\'300\'/%3E%3Ctext fill=\'%239ca3af\' font-family=\'sans-serif\' font-size=\'18\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E${encodeURIComponent(item.title)}%3C/text%3E%3C/svg%3E'">

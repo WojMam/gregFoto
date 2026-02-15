@@ -27,7 +27,7 @@
     <meta property="twitter:image" content="https://yourusername.github.io/gregFoto/assets/img/og-image.jpg">
 
     <link rel="canonical" href="https://yourusername.github.io/gregFoto/">
-    <link rel="icon" type="image/png" href="assets/ko_foto_logo_nobackground.png">
+    <link rel="icon" type="image/png" href="assets/ko_foto_logo_white_nobackground.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Koziczak Fotografia",
-      "image": "https://yourusername.github.io/gregFoto/assets/ko_foto_logo_nobackground.png",
+      "image": "https://yourusername.github.io/gregFoto/assets/ko_foto_logo_white_nobackground.png",
       "@id": "https://yourusername.github.io/gregFoto/",
       "url": "https://yourusername.github.io/gregFoto/",
       "telephone": "+48 517 198 670",
@@ -96,7 +96,7 @@
     <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
         <div class="container nav-container">
             <a href="#hero" class="nav-brand" aria-label="Koziczak Fotografia home">
-                <img src="assets/ko_foto_logo_nobackground.png" alt="Koziczak Fotografia" class="nav-logo">
+                <img src="assets/ko_foto_logo_white_nobackground.png" alt="Koziczak Fotografia" class="nav-logo">
                 <span class="nav-brand-text">Koziczak Fotografia</span>
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -120,7 +120,7 @@
     <section id="hero" class="hero">
         <div class="hero-background"></div>
         <div class="container hero-content">
-            <img src="assets/ko_foto_logo_nobackground.png" alt="Koziczak Fotografia" class="hero-logo">
+            <img src="assets/ko_foto_logo_white_nobackground.png" alt="Koziczak Fotografia" class="hero-logo">
             <h1 class="hero-title" data-i18n="hero.title">Wizualny storytelling dla nieruchomości.</h1>
             <p class="hero-subtitle" data-i18n="hero.subtitle">Wysokiej jakości fotografia mieszkań, domów i przestrzeni
                 komercyjnych.</p>
@@ -137,7 +137,7 @@
                     </svg>
                     <span data-i18n="hero.turnaround">24–72h turnaround</span>
                 </div>
-                <div class="trust-chip">
+                <div class="trust-chip hidden-drone" aria-hidden="true">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                         <path
                             d="M10 2L12.09 7.26L18 8.27L14 12.14L14.91 18.02L10 15.77L5.09 18.02L6 12.14L2 8.27L7.91 7.26L10 2Z"
@@ -159,6 +159,24 @@
                     <path d="M12 5v14M5 12l7 7 7-7" />
                 </svg>
             </a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title" data-i18n="portfolio.title">Portfolio</h2>
+            <p class="section-subtitle" data-i18n="portfolio.subtitle">Recent work across real estate, commercial, and
+                aerial projects</p>
+            <div class="portfolio-filters" role="tablist" aria-label="Portfolio filters">
+                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                <button class="filter-btn" data-filter="interiors" role="tab" aria-selected="false">Interiors</button>
+                <button class="filter-btn" data-filter="architecture" role="tab" aria-selected="false">Architecture</button>
+                <button class="filter-btn" data-filter="business" role="tab" aria-selected="false">Business</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid" role="list">
+                <!-- Portfolio items will be inserted by JS -->
+            </div>
         </div>
     </section>
 
@@ -223,7 +241,7 @@
                     </ul>
                     <a href="#contact" class="service-link">Ask about availability</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card hidden-drone" aria-hidden="true">
                     <div class="service-icon">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
                             <path d="M16 4L20 12L28 13L22 19L23 27L16 23L9 27L10 19L4 13L12 12L16 4Z"
@@ -240,25 +258,6 @@
                     </ul>
                     <a href="#contact" class="service-link">Ask about availability</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section portfolio">
-        <div class="container">
-            <h2 class="section-title" data-i18n="portfolio.title">Portfolio</h2>
-            <p class="section-subtitle" data-i18n="portfolio.subtitle">Recent work across real estate, commercial, and
-                aerial projects</p>
-            <div class="portfolio-filters" role="tablist" aria-label="Portfolio filters">
-                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
-                <button class="filter-btn" data-filter="real-estate" role="tab" aria-selected="false">Real
-                    Estate</button>
-                <button class="filter-btn" data-filter="business" role="tab" aria-selected="false">Business</button>
-                <button class="filter-btn" data-filter="drone" role="tab" aria-selected="false">Drone</button>
-            </div>
-            <div class="portfolio-grid" id="portfolioGrid" role="list">
-                <!-- Portfolio items will be inserted by JS -->
             </div>
         </div>
     </section>
@@ -395,20 +394,6 @@
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
-                        <span>What's the typical turnaround time?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Standard delivery is 24–72 hours after the shoot, depending on project scope. Rush delivery
-                            (12–24 hours) is available for an additional fee. Video projects typically require 3–5
-                            business days for editing.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
                         <span>How do you handle pricing?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                             <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2"
@@ -419,6 +404,20 @@
                         <p>Pricing is project-based and depends on property size, number of shots, video length, and
                             specific requirements. We provide detailed quotes after understanding your needs. Packages
                             are available for recurring clients.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What's the typical turnaround time?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Standard delivery is 24–72 hours after the shoot, depending on project scope. Rush delivery
+                            (12–24 hours) is available for an additional fee. Video projects typically require 3–5
+                            business days for editing.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -546,7 +545,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-social">
+            <div class="footer-social hidden-social" aria-hidden="true">
                 <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer"
                     aria-label="Instagram" class="social-link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -580,7 +579,8 @@
                 </a>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2024 Koziczak Fotografia. All rights reserved.</p>
+                <p data-i18n="footer.copyright">&copy; 2026 Koziczak Fotografia. All rights reserved.</p>
+                <p class="footer-notice" data-i18n="footer.inPreparation">Strona w przygotowaniu. Treści mogą się zmieniać.</p>
             </div>
         </div>
     </footer>

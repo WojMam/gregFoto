@@ -1034,6 +1034,13 @@ button {
     color: var(--color-text-light);
 }
 
+.footer-notice {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-light);
+    opacity: 0.85;
+    margin-top: var(--space-sm);
+}
+
 /* ============================================
    MOBILE BOTTOM BAR
    ============================================ */
@@ -1408,4 +1415,19 @@ button {
         font-size: var(--font-size-xs);
         padding: var(--space-xs) var(--space-md);
     }
+}
+
+/* Ukryte elementy (np. dron – włącz gdy oferta gotowa) */
+.hidden-drone {
+    display: none !important;
+}
+
+/* Tryb jasny wyłączony – tylko ciemny motyw */
+.theme-toggle {
+    display: none !important;
+}
+
+/* Sociale w stopce – ukryte na ten moment (usuń klasę .hidden-social z HTML, żeby pokazać) */
+.hidden-social {
+    display: none !important;
 }
