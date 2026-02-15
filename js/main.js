@@ -140,11 +140,11 @@ const TRANSLATIONS = {
             },
             q2: {
                 question: 'How do you handle pricing?',
-                answer: 'Pricing is determined individually for each project and depends on property size, number of shots, video length, and specific requirements. After a brief conversation, we prepare a precise quote tailored to your needs. Estimated service prices below:\n\n350 PLN\nSmall apartment up to 40 m² (studio)\n10–15 edited photos\nInteriors + details + building\n\n450 PLN\nApartment 40–90 m²\n15–25 edited photos\nInteriors + details + building\n\n700 PLN\nHouse / apartment above 90 m²\n25–30 edited photos\nInteriors + details + building\n\n150 PLN\nVertical video for social media (30–60 seconds)\nBrief presentation of property and area\nPerfect format for Instagram Reels / TikTok / YouTube Shorts'
+                answer: 'Pricing is determined individually for each project and depends on property size, number of shots, video length, and specific requirements. After a brief conversation, we prepare a precise quote tailored to your needs. Estimated service prices below:<br><br>350 PLN<br><strong>Small apartment up to 40 m² (studio)</strong><br>10–15 edited photos<br>Interiors + details + building<br><br>450 PLN<br><strong>Apartment 40–90 m²</strong><br>15–25 edited photos<br>Interiors + details + building<br><br>700 PLN<br><strong>House / apartment above 90 m²</strong><br>25–30 edited photos<br>Interiors + details + building<br><br>150 PLN<br><strong>Vertical video for social media (30–60 seconds)</strong><br>Brief presentation of property and area<br>Perfect format for Instagram Reels / TikTok / YouTube Shorts'
             },
             q3: {
                 question: 'What do I need to prepare before the shoot?',
-                answer: 'For private properties:\nEnsure the space is clean, organized, and ready for presentation. Remove all personal items that are not part of the decor — cosmetics, clothes, documents, toys, cleaning supplies, or random clutter. The interior should look like it\'s prepared for a potential buyer\'s visit: aesthetic, neutral, and free of distractions. Make sure all lights are working, and blinds and curtains are set to maximize room lighting.\n\nFor businesses and commercial spaces:\nPrepare the space to reflect the professional nature of your business. Ensure cleanliness of surfaces, floors, furniture, and windows — smudges and fingerprints are very visible in photos. Remove unnecessary items from desks and workstations, and if possible, organize cables and office supplies. It\'s worth informing staff about the session in advance, arrange access to the space, and indicate key areas that should be highlighted in photos or video.'
+                answer: '<strong>For private properties:</strong><br><br>Ensure the space is clean, organized, and ready for presentation. Remove all personal items that are not part of the decor — cosmetics, clothes, documents, toys, cleaning supplies, or random clutter. The interior should look like it\'s prepared for a potential buyer\'s visit: aesthetic, neutral, and free of distractions. Make sure all lights are working, and blinds and curtains are set to maximize room lighting.<br><br><strong>For businesses and commercial spaces:</strong><br><br>Prepare the space to reflect the professional nature of your business. Ensure cleanliness of surfaces, floors, furniture, and windows — smudges and fingerprints are very visible in photos. Remove unnecessary items from desks and workstations, and if possible, organize cables and office supplies. It\'s worth informing staff about the session in advance, arrange access to the space, and indicate key areas that should be highlighted in photos or video.'
             },
             q4: {
                 question: 'What are the licensing terms?',
@@ -306,11 +306,11 @@ const TRANSLATIONS = {
             },
             q2: {
                 question: 'Jak wygląda wycena?',
-                answer: 'Ceny są ustalane indywidualnie dla każdego projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo oraz specyficznych wymagań. Po krótkiej rozmowie przygotowujemy precyzyjną wycenę dopasowaną do Twoich potrzeb. Szacunkowe ceny usług poniżej:\n\n350 zł\nMałe mieszkanie do 40 m² (kawalerka)\n10–15 obrobionych zdjęć\nWnętrza + detale + budynek\n\n450 zł\nMieszkanie 40–90 m²\n15–25 obrobionych zdjęć\nWnętrza + detale + budynek\n\n700 zł\nDom / apartament powyżej 90 m²\n25–30 obrobionych zdjęć\nWnętrza + detale + budynek\n\n150 zł\nWideo pionowe na social media (30–60 sekund)\nKrόtka prezentacja nieruchomości i okolicy\nFormat idealny do Instagram Reels / TikTok / YouTube Shorts'
+                answer: 'Ceny są ustalane indywidualnie dla każdego projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo oraz specyficznych wymagań. Po krótkiej rozmowie przygotowujemy precyzyjną wycenę dopasowaną do Twoich potrzeb. Szacunkowe ceny usług poniżej:<br><br>350 zł<br><strong>Małe mieszkanie do 40 m² (kawalerka)</strong><br>10–15 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>450 zł<br><strong>Mieszkanie 40–90 m²</strong><br>15–25 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>700 zł<br><strong>Dom / apartament powyżej 90 m²</strong><br>25–30 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>150 zł<br><strong>Wideo pionowe na social media (30–60 sekund)</strong><br>Krótka prezentacja nieruchomości i okolicy<br>Format idealny do Instagram Reels / TikTok / YouTube Shorts'
             },
             q3: {
                 question: 'Co muszę przygotować przed sesją?',
-                answer: 'Dla nieruchomości prywatnych:\nZadbaj o to, aby przestrzeń była czysta, uporządkowana i gotowa do prezentacji. Usuń wszystkie przedmioty osobiste, które nie są elementem wystroju — kosmetyki, ubrania, dokumenty, zabawki, środki czystości czy przypadkowe drobiazgi. Wnętrze powinno wyglądać jak przygotowane do wizyty potencjalnego kupującego: estetyczne, neutralne i pozbawione rozpraszaczy. Upewnij się, że wszystkie światła działają, a rolety i zasłony są ustawione tak, aby maksymalnie doświetlić pomieszczenia.\n\nDla firm i przestrzeni komercyjnych:\nPrzygotuj miejsce tak, aby odzwierciedlało profesjonalny charakter Twojej działalności. Zadbaj o czystość powierzchni, podłóg, mebli oraz szyb — smugi i odciski palców są bardzo widoczne na zdjęciach. Usuń zbędne przedmioty z blatów i stanowisk pracy, a jeśli to możliwe, uporządkuj kable i materiały biurowe. Warto wcześniej poinformować personel o sesji, ustalić dostęp do przestrzeni oraz wskazać kluczowe obszary, które mają zostać podkreślone na zdjęciach lub wideo.'
+                answer: '<strong>Dla nieruchomości prywatnych:</strong><br><br>Zadbaj o to, aby przestrzeń była czysta, uporządkowana i gotowa do prezentacji. Usuń wszystkie przedmioty osobiste, które nie są elementem wystroju — kosmetyki, ubrania, dokumenty, zabawki, środki czystości czy przypadkowe drobiazgi. Wnętrze powinno wyglądać jak przygotowane do wizyty potencjalnego kupującego: estetyczne, neutralne i pozbawione rozpraszaczy. Upewnij się, że wszystkie światła działają, a rolety i zasłony są ustawione tak, aby maksymalnie doświetlić pomieszczenia.<br><br><strong>Dla firm i przestrzeni komercyjnych:</strong><br><br>Przygotuj miejsce tak, aby odzwierciedlało profesjonalny charakter Twojej działalności. Zadbaj o czystość powierzchni, podłóg, mebli oraz szyb — smugi i odciski palców są bardzo widoczne na zdjęciach. Usuń zbędne przedmioty z blatów i stanowisk pracy, a jeśli to możliwe, uporządkuj kable i materiały biurowe. Warto wcześniej poinformować personel o sesji, ustalić dostęp do przestrzeni oraz wskazać kluczowe obszary, które mają zostać podkreślone na zdjęciach lub wideo.'
             },
             q4: {
                 question: 'Jakie są warunki licencyjne?',
@@ -362,17 +362,17 @@ const TRANSLATIONS = {
 
 const PORTFOLIO_DATA = [
     { id: 1, title: 'Private Residence Living Room', category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: 'Elegant living space in private residence' },
-    { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/02.webp', description: 'Corporate office photography for commercial real estate' },
+    { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/02.jpg', description: 'Corporate office photography for commercial real estate' },
     { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: 'Premium bathroom design with gold and black accents' },
-    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/04.webp', description: 'Multi-unit residential property documentation' },
+    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/04.jpg', description: 'Multi-unit residential property documentation' },
     { id: 5, title: 'Contemporary Bathroom Design', category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
-    { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/06.webp', description: 'Professional walkthrough video production' },
+    { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/06.jpg', description: 'Professional walkthrough video production' },
     { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/07.webp', description: 'Corporate headshot photography session' },
-    { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/08.webp', description: 'Drone documentation for construction site' },
+    { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/08.jpg', description: 'Drone documentation for construction site' },
     { id: 9, title: 'Luxury Condo', category: 'interiors', image: 'assets/img/portfolio/09.webp', description: 'High-end condominium interior photography' },
     { id: 10, title: 'Factory Interior', category: 'business', image: 'assets/img/portfolio/10.webp', description: 'Manufacturing facility documentation' },
     { id: 11, title: 'Property Development', category: 'architecture', image: 'assets/img/portfolio/11.webp', description: 'Aerial view of new development project' },
-    { id: 12, title: 'Commercial Building', category: 'architecture', image: 'assets/img/portfolio/12.webp', description: 'Exterior and interior commercial photography' }
+    { id: 12, title: 'Commercial Building', category: 'architecture', image: 'assets/img/portfolio/12.jpg', description: 'Exterior and interior commercial photography' }
 ];
 
 /* ============================================
@@ -574,11 +574,11 @@ function updateFAQTranslations() {
     if (items.length === 5) {
         // Order: pricing first (q2), then turnaround (q1), prepare (q3), licensing (q4), travel (q5)
         items[0].querySelector('.faq-question span').textContent = faq.q2.question;
-        items[0].querySelector('.faq-answer p').textContent = faq.q2.answer;
+        items[0].querySelector('.faq-answer p').innerHTML = faq.q2.answer;
         items[1].querySelector('.faq-question span').textContent = faq.q1.question;
         items[1].querySelector('.faq-answer p').textContent = faq.q1.answer;
         items[2].querySelector('.faq-question span').textContent = faq.q3.question;
-        items[2].querySelector('.faq-answer p').textContent = faq.q3.answer;
+        items[2].querySelector('.faq-answer p').innerHTML = faq.q3.answer;
         items[3].querySelector('.faq-question span').textContent = faq.q4.question;
         items[3].querySelector('.faq-answer p').textContent = faq.q4.answer;
         items[4].querySelector('.faq-question span').textContent = faq.q5.question;
@@ -742,17 +742,17 @@ function getTranslatedPortfolioData() {
     const portfolio = TRANSLATIONS[currentLang].portfolio.items;
     return [
         { id: 1, title: portfolio.item1.title, category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: portfolio.item1.description },
-        { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/02.webp', description: portfolio.item2.description },
+        { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/02.jpg', description: portfolio.item2.description },
         { id: 3, title: portfolio.item3.title, category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: portfolio.item3.description },
-        { id: 4, title: portfolio.item4.title, category: 'architecture', image: 'assets/img/portfolio/04.webp', description: portfolio.item4.description },
+        { id: 4, title: portfolio.item4.title, category: 'architecture', image: 'assets/img/portfolio/04.jpg', description: portfolio.item4.description },
         { id: 5, title: portfolio.item5.title, category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: portfolio.item5.description },
-        { id: 6, title: portfolio.item6.title, category: 'interiors', image: 'assets/img/portfolio/06.webp', description: portfolio.item6.description },
+        { id: 6, title: portfolio.item6.title, category: 'interiors', image: 'assets/img/portfolio/06.jpg', description: portfolio.item6.description },
         { id: 7, title: portfolio.item7.title, category: 'business', image: 'assets/img/portfolio/07.webp', description: portfolio.item7.description },
-        { id: 8, title: portfolio.item8.title, category: 'architecture', image: 'assets/img/portfolio/08.webp', description: portfolio.item8.description },
+        { id: 8, title: portfolio.item8.title, category: 'architecture', image: 'assets/img/portfolio/08.jpg', description: portfolio.item8.description },
         { id: 9, title: portfolio.item9.title, category: 'interiors', image: 'assets/img/portfolio/09.webp', description: portfolio.item9.description },
         { id: 10, title: portfolio.item10.title, category: 'business', image: 'assets/img/portfolio/10.webp', description: portfolio.item10.description },
         { id: 11, title: portfolio.item11.title, category: 'architecture', image: 'assets/img/portfolio/11.webp', description: portfolio.item11.description },
-        { id: 12, title: portfolio.item12.title, category: 'architecture', image: 'assets/img/portfolio/12.webp', description: portfolio.item12.description }
+        { id: 12, title: portfolio.item12.title, category: 'architecture', image: 'assets/img/portfolio/12.jpg', description: portfolio.item12.description }
     ];
 }
 
