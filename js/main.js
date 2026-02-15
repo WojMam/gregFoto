@@ -22,172 +22,6 @@ const CONFIG = {
    ============================================ */
 
 const TRANSLATIONS = {
-    en: {
-        nav: {
-            services: 'Services',
-            portfolio: 'Portfolio',
-            process: 'Process',
-            testimonials: 'Testimonials',
-            faq: 'FAQ',
-            contact: 'Contact',
-            getQuote: 'Get a quote'
-        },
-        hero: {
-            title: 'Visual storytelling for real estate.',
-            subtitle: 'High-quality photography of apartments, houses, and commercial spaces.',
-            getQuote: 'Get a quote',
-            seePortfolio: 'See portfolio',
-            turnaround: '24–72h turnaround',
-            droneCertified: 'Drone certified',
-            licensing: 'Full licensing rights'
-        },
-        services: {
-            title: 'Services',
-            subtitle: 'Comprehensive visual solutions for your property and business needs',
-            realEstate: {
-                title: 'Real Estate Photography',
-                items: ['Interior & exterior shots', 'Virtual staging ready', 'HDR & natural light', 'MLS-optimized delivery'],
-                link: 'Ask about availability'
-            },
-            video: {
-                title: 'Property videos and reels',
-                items: ['Walkthrough videos', 'Social media reels', 'Professional editing', 'Music & voiceover options'],
-                link: 'Ask about availability'
-            },
-            business: {
-                title: 'Business & Industrial',
-                items: ['Office spaces', 'Factories & warehouses', 'Equipment and machinery photography', 'Brand documentation'],
-                link: 'Ask about availability'
-            },
-            drone: {
-                title: 'Drone Photography',
-                items: ['Aerial property views', 'Site documentation', '4K video capability', 'FAA Part 107 certified'],
-                link: 'Ask about availability'
-            }
-        },
-        portfolio: {
-            title: 'Portfolio',
-            subtitle: 'Recent work across real estate, commercial, and aerial projects',
-            filters: {
-                all: 'All',
-                interiors: 'Interiors',
-                architecture: 'Architecture',
-                business: 'Business'
-            },
-            items: {
-                item1: { title: 'Private Residence Living Room', description: 'Elegant living space in private residence' },
-                item2: { title: 'Downtown Office Space', description: 'Corporate office photography for commercial real estate' },
-                item3: { title: 'Luxury Gold & Black Bathroom', description: 'Premium bathroom design with gold and black accents' },
-                item4: { title: 'Apartment Complex', description: 'Multi-unit residential property documentation' },
-                item5: { title: 'Contemporary Bathroom Design', description: 'Modern bathroom interior with sophisticated gold and black palette' },
-                item6: { title: 'Residential Video Tour', description: 'Professional walkthrough video production' },
-                item7: { title: 'Business Headshots', description: 'Corporate headshot photography session' },
-                item8: { title: 'Aerial Site Survey', description: 'Drone documentation for construction site' },
-                item9: { title: 'Luxury Condo', description: 'High-end condominium interior photography' },
-                item10: { title: 'Factory Interior', description: 'Manufacturing facility documentation' },
-                item11: { title: 'Property Development', description: 'Aerial view of new development project' },
-                item12: { title: 'Commercial Building', description: 'Exterior and interior commercial photography' }
-            }
-        },
-        process: {
-            title: 'How It Works',
-            subtitle: 'A streamlined process from inquiry to delivery',
-            step1: {
-                title: 'Consultation',
-                description: 'We discuss your project needs, timeline, and deliverables to create a tailored plan.'
-            },
-            step2: {
-                title: 'Shoot',
-                description: 'On-site capture with professional equipment, ensuring every angle and detail is covered.'
-            },
-            step3: {
-                title: 'Editing',
-                description: 'Professional post-processing, color correction, and optimization for your intended use.'
-            },
-            step4: {
-                title: 'Delivery',
-                description: 'Fast turnaround with high-resolution files delivered via secure cloud link, ready to use.'
-            }
-        },
-        testimonials: {
-            title: 'What clients say',
-            subtitle: 'Trusted by developers, agents, and business owners',
-            testimonial1: {
-                text: '"The quality of the photos exceeded our expectations. Every listing we\'ve used their work for has seen faster showings and offers."',
-                author: 'Sarah Chen',
-                role: 'Marketing Manager, Real Estate Development',
-                result: 'Result: 40% faster listing sales'
-            },
-            testimonial2: {
-                text: '"Professional, punctual, and the final deliverables were exactly what we needed for our corporate website and marketing materials."',
-                author: 'Michael Rodriguez',
-                role: 'Operations Director, Industrial Facility',
-                result: 'Result: Enhanced brand presence'
-            },
-            testimonial3: {
-                text: '"The drone footage gave us a competitive edge. The aerial perspective showcased our property development in a way that static photos couldn\'t."',
-                author: 'David Park',
-                role: 'Real Estate Agent, Luxury Properties',
-                result: 'Result: 3x more online engagement'
-            }
-        },
-        faq: {
-            title: 'Frequently Asked Questions',
-            subtitle: 'Common questions about our services and process',
-            q1: {
-                question: 'What\'s the typical turnaround time?',
-                answer: 'Standard delivery is 24–48 hours after the shoot, depending on project scope. Rush delivery (12–24 hours) is available for an additional fee. Larger video projects typically require 3 business days for editing.'
-            },
-            q2: {
-                question: 'How do you handle pricing?',
-                answer: 'Pricing is determined individually for each project and depends on property size, number of shots, video length, and specific requirements. After a brief conversation, we prepare a precise quote tailored to your needs. Estimated service prices below:<br><br>350 PLN<br><strong>Small apartment up to 40 m² (studio)</strong><br>10–15 edited photos<br>Interiors + details + building<br><br>450 PLN<br><strong>Apartment 40–90 m²</strong><br>15–25 edited photos<br>Interiors + details + building<br><br>700 PLN<br><strong>House / apartment above 90 m²</strong><br>25–30 edited photos<br>Interiors + details + building<br><br>150 PLN<br><strong>Vertical video for social media (30–60 seconds)</strong><br>Brief presentation of property and area<br>Perfect format for Instagram Reels / TikTok / YouTube Shorts'
-            },
-            q3: {
-                question: 'What do I need to prepare before the shoot?',
-                answer: '<strong>For private properties:</strong><br><br>Ensure the space is clean, organized, and ready for presentation. Remove all personal items that are not part of the decor — cosmetics, clothes, documents, toys, cleaning supplies, or random clutter. The interior should look like it\'s prepared for a potential buyer\'s visit: aesthetic, neutral, and free of distractions. Make sure all lights are working, and blinds and curtains are set to maximize room lighting.<br><br><strong>For businesses and commercial spaces:</strong><br><br>Prepare the space to reflect the professional nature of your business. Ensure cleanliness of surfaces, floors, furniture, and windows — smudges and fingerprints are very visible in photos. Remove unnecessary items from desks and workstations, and if possible, organize cables and office supplies. It\'s worth informing staff about the session in advance, arrange access to the space, and indicate key areas that should be highlighted in photos or video.'
-            },
-            q4: {
-                question: 'What are the licensing terms?',
-                answer: 'All deliverables include full commercial licensing rights for marketing, advertising, and listing purposes. You own the usage rights for the images/videos you receive. We retain copyright but grant you unlimited use within the agreed scope.'
-            },
-            q5: {
-                question: 'Do you travel for shoots?',
-                answer: 'Absolutely. Additional travel fees apply for distances over 50km from Bydgoszcz. For projects beyond this range, we discuss travel costs individually.'
-            }
-        },
-        contact: {
-            title: 'Get In Touch',
-            subtitle: 'Ready to discuss your project? Let\'s talk.',
-            phone: 'Phone',
-            email: 'Email',
-            serviceArea: 'Service Area',
-            serviceAreaText: 'Bydgoszcz and surrounding areas<br>Travel possible upon prior arrangement',
-            form: {
-                name: 'Name',
-                email: 'Email',
-                phone: 'Phone',
-                message: 'Message',
-                send: 'Send Message',
-                required: '*',
-                sending: 'Sending...',
-                success: 'Thank you! Your message has been sent. We\'ll get back to you soon.',
-                error: 'Sorry, there was an error sending your message. Please try again or contact us directly.',
-                errorField: 'Please fix the errors above',
-                errorName: 'This field is required',
-                errorEmail: 'Please enter a valid email address',
-                subject: 'New contact form message from'
-            }
-        },
-        footer: {
-            copyright: '© 2026 Koziczak Fotografia. All rights reserved.',
-            inPreparation: 'This site is under construction. Content may be updated.'
-        },
-        mobile: {
-            call: 'Call',
-            email: 'Email',
-            quote: 'Quote'
-        }
-    },
     pl: {
         nav: {
             services: 'Usługi',
@@ -399,7 +233,7 @@ function prefersReducedMotion() {
    LANGUAGE SYSTEM
    ============================================ */
 
-let currentLang = localStorage.getItem('language') || 'pl';
+let currentLang = 'pl';
 
 function translate(key, lang = currentLang) {
     const keys = key.split('.');
@@ -433,13 +267,8 @@ function updateTranslations() {
     // Update meta tags
     const metaDescription = document.querySelector('meta[name="description"]');
     const metaTitle = document.querySelector('title');
-    if (currentLang === 'pl') {
-        if (metaDescription) metaDescription.setAttribute('content', 'Profesjonalne usługi fotograficzne i wideo dla deweloperów nieruchomości, agentów i firm. Fotografia dronem, filmy nieruchomości i obrazy komercyjne.');
-        if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Profesjonalna Fotografia i Wideo dla Nieruchomości i Biznesu';
-    } else {
-        if (metaDescription) metaDescription.setAttribute('content', 'High-quality photography of apartments, houses, and commercial spaces. Drone photography, property videos, and commercial imagery.');
-        if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Professional Photo & Video for Real Estate & Business';
-    }
+    if (metaDescription) metaDescription.setAttribute('content', 'Profesjonalne usługi fotograficzne i wideo dla deweloperów nieruchomości, agentów i firm. Fotografia dronem, filmy nieruchomości i obrazy komercyjne.');
+    if (metaTitle) metaTitle.textContent = 'Koziczak Fotografia - Profesjonalna Fotografia i Wideo dla Nieruchomości i Biznesu';
     
     // Update portfolio data
     updatePortfolioTranslations();
@@ -462,8 +291,6 @@ function updateTranslations() {
     // Update mobile bar
     updateMobileBarTranslations();
     
-    // Update language toggle button
-    document.getElementById('langCode').textContent = currentLang.toUpperCase();
 }
 
 function updatePortfolioTranslations() {
@@ -606,20 +433,7 @@ function updateMobileBarTranslations() {
 }
 
 function initLanguageToggle() {
-    const langToggle = document.getElementById('langToggle');
-    
-    langToggle.addEventListener('click', () => {
-        currentLang = currentLang === 'en' ? 'pl' : 'en';
-        localStorage.setItem('language', currentLang);
-        updateTranslations();
-        
-        // Re-render portfolio with new language
-        if (typeof initPortfolio === 'function') {
-            initPortfolio();
-        }
-    });
-    
-    // Initial translation update
+    // Tylko wersja polska – bez przełączania języka
     updateTranslations();
 }
 
