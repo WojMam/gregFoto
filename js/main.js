@@ -116,16 +116,16 @@ const TRANSLATIONS = {
             title: 'Co mówią Klienci',
             subtitle: 'Zaufali nam deweloperzy, agenci i właściciele firm',
             testimonial1: {
-                text: '"Jakość zdjęć przekroczyła nasze oczekiwania. Każda oferta, w której wykorzystaliśmy ich pracę, przyniosła szybsze pokazy i oferty."',
-                author: 'Sarah Chen',
-                role: 'Kierownik Marketingu, Rozwój Nieruchomości',
-                result: 'Rezultat: 40% szybsza sprzedaż ofert'
+                text: '"Współpraca z Grzesiem to czysta przyjemność, a efekt końcowy to absolutny sztos! Jestem pod ogromnym wrażeniem jakości i estetyki zdjęć. Widać w nich pasję, wyczucie i wielki talent. Szczerze polecam każdemu, kto chce, aby jego oferta prezentowała się jak z katalogu."',
+                author: 'Daria Petla',
+                role: 'Trener personalny, Kuźnia Siły',
+                result: 'Rezultat: Znacznie większe zainteresowanie ofertą'
             },
             testimonial2: {
-                text: '"Profesjonalni, punktualni, a finalne rezultaty były dokładnie tym, czego potrzebowaliśmy do naszej strony korporacyjnej i materiałów marketingowych."',
-                author: 'Michael Rodriguez',
-                role: 'Dyrektor Operacyjny, Obiekt Przemysłowy',
-                result: 'Rezultat: Wzmocniona obecność marki'
+                text: '"Prowadzę w Bydgoszczy biuro nieruchomości. W naszej branży kluczowe znaczenie ma profesjonalne przygotowanie oferty sprzedaży lub najmu, a jej najważniejszym elementem są oczywiście zdjęcia. Liczy się nie tylko jakość, lecz także pomysłowość i „dobre oko”, dzięki którym możemy pokazać wnętrza w ciekawy, nieoczywisty sposób. Sesje nieruchomości, które otrzymaliśmy od Grzegorza, w pełni odpowiadają naszym oczekiwaniom. Polecam z pełnym przekonaniem."',
+                author: 'Michał Pacoszyński',
+                role: 'Pracownia Nieruchomości',
+                result: 'Rezultat: Bardziej atrakcyjne oferty i większe zainteresowanie klientów'
             },
             testimonial3: {
                 text: '"Materiał z drona dał nam przewagę konkurencyjną. Perspektywa z lotu ptaka zaprezentowała nasz rozwój nieruchomości w sposób, w jaki statyczne zdjęcia nie mogły."',
