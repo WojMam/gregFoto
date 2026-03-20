@@ -86,7 +86,10 @@ const TRANSLATIONS = {
                 item9: { title: 'Luksusowe Mieszkanie', description: 'Fotografia wnętrz luksusowego mieszkania' },
                 item10: { title: 'Wnętrze Fabryki', description: 'Dokumentacja zakładu produkcyjnego' },
                 item11: { title: 'Rozwój Nieruchomości', description: 'Widok z lotu ptaka nowego projektu deweloperskiego' },
-                item12: { title: 'Budynek Komercyjny', description: 'Fotografia zewnętrzna i wewnętrzna nieruchomości komercyjnej' }
+                item12: { title: 'Budynek Komercyjny', description: 'Fotografia zewnętrzna i wewnętrzna nieruchomości komercyjnej' },
+                item13: { title: 'Nowoczesna Jadalnia', description: 'Klimatyczne ujęcie przestrzeni jadalnianej z dbałością o detale' },
+                item14: { title: 'Stylowa Sypialnia', description: 'Estetyczna prezentacja wnętrza podkreślająca komfort i charakter' },
+                item15: { title: 'Kuchnia Premium', description: 'Fotografia wnętrza kuchni z naciskiem na światło i kompozycję' }
             }
         },
         process: {
@@ -195,18 +198,21 @@ const TRANSLATIONS = {
    ============================================ */
 
 const PORTFOLIO_DATA = [
-    { id: 1, title: 'Private Residence Living Room', category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: 'Elegant living space in private residence' },
-    { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/02.jpg', description: 'Corporate office photography for commercial real estate' },
-    { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: 'Premium bathroom design with gold and black accents' },
-    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/04.jpg', description: 'Multi-unit residential property documentation' },
-    { id: 5, title: 'Contemporary Bathroom Design', category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
-    { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/06.jpg', description: 'Professional walkthrough video production' },
-    { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/07.webp', description: 'Corporate headshot photography session' },
-    { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/08.jpg', description: 'Drone documentation for construction site' },
-    { id: 9, title: 'Luxury Condo', category: 'interiors', image: 'assets/img/portfolio/09.webp', description: 'High-end condominium interior photography' },
-    { id: 10, title: 'Factory Interior', category: 'business', image: 'assets/img/portfolio/10.webp', description: 'Manufacturing facility documentation' },
-    { id: 11, title: 'Property Development', category: 'architecture', image: 'assets/img/portfolio/11.webp', description: 'Aerial view of new development project' },
-    { id: 12, title: 'Commercial Building', category: 'architecture', image: 'assets/img/portfolio/12.jpg', description: 'Exterior and interior commercial photography' }
+    { id: 1, title: 'Private Residence Living Room', category: 'interiors', image: 'assets/img/portfolio/wnetrza_1.jpg', description: 'Elegant living space in private residence' },
+    { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/biznes_1.jpg', description: 'Corporate office photography for commercial real estate' },
+    { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'interiors', image: 'assets/img/portfolio/wnetrza_2.jpg', description: 'Premium bathroom design with gold and black accents' },
+    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/architektura_1.jpg', description: 'Multi-unit residential property documentation' },
+    { id: 5, title: 'Contemporary Bathroom Design', category: 'interiors', image: 'assets/img/portfolio/wnetrza_3.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
+    { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/wnetrza_4.jpg', description: 'Professional walkthrough video production' },
+    { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/biznes_2.jpg', description: 'Corporate headshot photography session' },
+    { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/architektura_2.jpg', description: 'Drone documentation for construction site' },
+    { id: 9, title: 'Luxury Condo', category: 'interiors', image: 'assets/img/portfolio/wnetrza_5.jpg', description: 'High-end condominium interior photography' },
+    { id: 10, title: 'Factory Interior', category: 'business', image: 'assets/img/portfolio/biznes_3.jpg', description: 'Manufacturing facility documentation' },
+    { id: 11, title: 'Property Development', category: 'architecture', image: 'assets/img/portfolio/architektura_3.jpg', description: 'Aerial view of new development project' },
+    { id: 12, title: 'Commercial Building', category: 'business', image: 'assets/img/portfolio/biznes_4.jpg', description: 'Exterior and interior commercial photography' },
+    { id: 13, title: 'Modern Dining Area', category: 'interiors', image: 'assets/img/portfolio/wnetrza_6.jpg', description: 'Well-lit dining interior with balanced composition' },
+    { id: 14, title: 'Stylish Bedroom', category: 'interiors', image: 'assets/img/portfolio/wnetrza_7.jpg', description: 'Cozy bedroom photography highlighting texture and design' },
+    { id: 15, title: 'Premium Kitchen', category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: 'Clean and premium kitchen interior presentation' }
 ];
 
 /* ============================================
@@ -555,18 +561,21 @@ function initScrollSpy() {
 function getTranslatedPortfolioData() {
     const portfolio = TRANSLATIONS[currentLang].portfolio.items;
     return [
-        { id: 1, title: portfolio.item1.title, category: 'interiors', image: 'assets/img/portfolio/01.jpg', description: portfolio.item1.description },
-        { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/02.jpg', description: portfolio.item2.description },
-        { id: 3, title: portfolio.item3.title, category: 'interiors', image: 'assets/img/portfolio/03.jpg', description: portfolio.item3.description },
-        { id: 4, title: portfolio.item4.title, category: 'architecture', image: 'assets/img/portfolio/04.jpg', description: portfolio.item4.description },
-        { id: 5, title: portfolio.item5.title, category: 'interiors', image: 'assets/img/portfolio/05.jpg', description: portfolio.item5.description },
-        { id: 6, title: portfolio.item6.title, category: 'interiors', image: 'assets/img/portfolio/06.jpg', description: portfolio.item6.description },
-        { id: 7, title: portfolio.item7.title, category: 'business', image: 'assets/img/portfolio/07.webp', description: portfolio.item7.description },
-        { id: 8, title: portfolio.item8.title, category: 'architecture', image: 'assets/img/portfolio/08.jpg', description: portfolio.item8.description },
-        { id: 9, title: portfolio.item9.title, category: 'interiors', image: 'assets/img/portfolio/09.webp', description: portfolio.item9.description },
-        { id: 10, title: portfolio.item10.title, category: 'business', image: 'assets/img/portfolio/10.webp', description: portfolio.item10.description },
-        { id: 11, title: portfolio.item11.title, category: 'architecture', image: 'assets/img/portfolio/11.webp', description: portfolio.item11.description },
-        { id: 12, title: portfolio.item12.title, category: 'architecture', image: 'assets/img/portfolio/12.jpg', description: portfolio.item12.description }
+        { id: 1, title: portfolio.item1.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_1.jpg', description: portfolio.item1.description },
+        { id: 2, title: portfolio.item2.title, category: 'business', image: 'assets/img/portfolio/biznes_1.jpg', description: portfolio.item2.description },
+        { id: 3, title: portfolio.item3.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_2.jpg', description: portfolio.item3.description },
+        { id: 4, title: portfolio.item4.title, category: 'architecture', image: 'assets/img/portfolio/architektura_1.jpg', description: portfolio.item4.description },
+        { id: 5, title: portfolio.item5.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_3.jpg', description: portfolio.item5.description },
+        { id: 6, title: portfolio.item6.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_4.jpg', description: portfolio.item6.description },
+        { id: 7, title: portfolio.item7.title, category: 'business', image: 'assets/img/portfolio/biznes_2.jpg', description: portfolio.item7.description },
+        { id: 8, title: portfolio.item8.title, category: 'architecture', image: 'assets/img/portfolio/architektura_2.jpg', description: portfolio.item8.description },
+        { id: 9, title: portfolio.item9.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_5.jpg', description: portfolio.item9.description },
+        { id: 10, title: portfolio.item10.title, category: 'business', image: 'assets/img/portfolio/biznes_3.jpg', description: portfolio.item10.description },
+        { id: 11, title: portfolio.item11.title, category: 'architecture', image: 'assets/img/portfolio/architektura_3.jpg', description: portfolio.item11.description },
+        { id: 12, title: portfolio.item12.title, category: 'business', image: 'assets/img/portfolio/biznes_4.jpg', description: portfolio.item12.description },
+        { id: 13, title: portfolio.item13.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_6.jpg', description: portfolio.item13.description },
+        { id: 14, title: portfolio.item14.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_7.jpg', description: portfolio.item14.description },
+        { id: 15, title: portfolio.item15.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: portfolio.item15.description }
     ];
 }
 
