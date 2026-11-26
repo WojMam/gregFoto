@@ -78,18 +78,28 @@ const TRANSLATIONS = {
                 item1: { title: 'Salon w Mieszkaniu Prywatnym', description: 'Elegancka przestrzeń dzienna w mieszkaniu prywatnym' },
                 item2: { title: 'Biuro w Centrum', description: 'Fotografia biurowa dla nieruchomości komercyjnych' },
                 item3: { title: 'Luksusowa Łazienka w Złocie i Czerni', description: 'Ekskluzywny design łazienki z akcentami złota i czerni' },
-                item4: { title: 'Kompleks Mieszkaniowy', description: 'Dokumentacja wielorodzinnej nieruchomości mieszkaniowej' },
+                item4: { title: 'Hol Wejściowy Kamienicy', description: 'Klimatyczny korytarz z cegłą i ozdobnymi lampami' },
                 item5: { title: 'Nowoczesna Łazienka', description: 'Współczesne wnętrze łazienki z wyrafinowaną paletą złota i czerni' },
                 item6: { title: 'Wideo Spacerowe Mieszkaniowe', description: 'Profesjonalna produkcja filmów spacerowych' },
                 item7: { title: 'Zdjęcia Korporacyjne', description: 'Sesja zdjęciowa portretów korporacyjnych' },
                 item8: { title: 'Inspekcja Terenu z Drona', description: 'Dokumentacja dronem placu budowy' },
-                item9: { title: 'Luksusowe Mieszkanie', description: 'Fotografia wnętrz luksusowego mieszkania' },
+                item9: { title: 'Salon z Otwartą Kuchnią', description: 'Przestronny salon połączony z kuchnią w nowoczesnym mieszkaniu' },
                 item10: { title: 'Wnętrze Fabryki', description: 'Dokumentacja zakładu produkcyjnego' },
                 item11: { title: 'Rozwój Nieruchomości', description: 'Widok z lotu ptaka nowego projektu deweloperskiego' },
                 item12: { title: 'Budynek Komercyjny', description: 'Fotografia zewnętrzna i wewnętrzna nieruchomości komercyjnej' },
                 item13: { title: 'Nowoczesna Jadalnia', description: 'Klimatyczne ujęcie przestrzeni jadalnianej z dbałością o detale' },
-                item14: { title: 'Stylowa Sypialnia', description: 'Estetyczna prezentacja wnętrza podkreślająca komfort i charakter' },
-                item15: { title: 'Kuchnia Premium', description: 'Fotografia wnętrza kuchni z naciskiem na światło i kompozycję' }
+                item14: { title: 'Nowoczesna Kuchnia', description: 'Elegancka kuchnia z drewnianymi frontami i jasnym kamieniem' },
+                item15: { title: 'Kuchnia Premium', description: 'Fotografia wnętrza kuchni z naciskiem na światło i kompozycję' },
+                item16: { title: 'Nowoczesny Blok Mieszkalny', description: 'Fasada współczesnego budynku wielorodzinnego' },
+                item17: { title: 'Widok z Drona na Rzekę', description: 'Ujęcie lotnicze miasta i otoczenia nad wodą' },
+                item18: { title: 'Budynek przy Ulicy', description: 'Prezentacja nowoczesnej inwestycji mieszkaniowej w kontekście okolicy' },
+                item19: { title: 'Dziedziniec Osiedla', description: 'Zespół mieszkaniowy z zielonym patio i strefą wypoczynku' },
+                item20: { title: 'Apartamentowiec z Ogrodem', description: 'Nowoczesna architektura z zadbaną przestrzenią wspólną' },
+                item21: { title: 'Dom z Lotu Ptaka', description: 'Zdjęcie dronowe posesji z ogrodem i otoczeniem' },
+                item22: { title: 'Kamienica w Centrum', description: 'Klasyczna fasada budynku z ofertą powierzchni biurowych' },
+                item23: { title: 'Garaż Podziemny', description: 'Czysta dokumentacja nowoczesnego parkingu podziemnego' },
+                item24: { title: 'Salon z Jadalnią', description: 'Otwarta strefa dzienna z turkusowymi akcentami' },
+                item25: { title: 'Jasne Puste Wnętrze', description: 'Przestrzeń po remoncie z widokiem na balkon i miasto' }
             }
         },
         process: {
@@ -201,18 +211,28 @@ const PORTFOLIO_DATA = [
     { id: 1, title: 'Private Residence Living Room', category: 'interiors', image: 'assets/img/portfolio/wnetrza_1.jpg', description: 'Elegant living space in private residence' },
     { id: 2, title: 'Downtown Office Space', category: 'business', image: 'assets/img/portfolio/biznes_1.jpg', description: 'Corporate office photography for commercial real estate' },
     { id: 3, title: 'Luxury Gold & Black Bathroom', category: 'interiors', image: 'assets/img/portfolio/wnetrza_2.jpg', description: 'Premium bathroom design with gold and black accents' },
-    { id: 4, title: 'Apartment Complex', category: 'architecture', image: 'assets/img/portfolio/architektura_1.jpg', description: 'Multi-unit residential property documentation' },
+    { id: 4, title: 'Building Entrance Hall', category: 'architecture', image: 'assets/img/portfolio/architektura_1.jpg', description: 'Atmospheric hallway with brick and decorative lighting' },
     { id: 5, title: 'Contemporary Bathroom Design', category: 'interiors', image: 'assets/img/portfolio/wnetrza_3.jpg', description: 'Modern bathroom interior with sophisticated gold and black palette' },
     { id: 6, title: 'Residential Video Tour', category: 'interiors', image: 'assets/img/portfolio/wnetrza_4.jpg', description: 'Professional walkthrough video production' },
     { id: 7, title: 'Business Headshots', category: 'business', image: 'assets/img/portfolio/biznes_2.jpg', description: 'Corporate headshot photography session' },
     { id: 8, title: 'Aerial Site Survey', category: 'architecture', image: 'assets/img/portfolio/architektura_2.jpg', description: 'Drone documentation for construction site' },
-    { id: 9, title: 'Luxury Condo', category: 'interiors', image: 'assets/img/portfolio/wnetrza_5.jpg', description: 'High-end condominium interior photography' },
+    { id: 9, title: 'Open Living with Kitchen', category: 'interiors', image: 'assets/img/portfolio/wnetrza_5.jpg', description: 'Spacious living room connected to a modern kitchen' },
     { id: 10, title: 'Factory Interior', category: 'business', image: 'assets/img/portfolio/biznes_3.jpg', description: 'Manufacturing facility documentation' },
     { id: 11, title: 'Property Development', category: 'architecture', image: 'assets/img/portfolio/architektura_3.jpg', description: 'Aerial view of new development project' },
     { id: 12, title: 'Commercial Building', category: 'business', image: 'assets/img/portfolio/biznes_4.jpg', description: 'Exterior and interior commercial photography' },
     { id: 13, title: 'Modern Dining Area', category: 'interiors', image: 'assets/img/portfolio/wnetrza_6.jpg', description: 'Well-lit dining interior with balanced composition' },
-    { id: 14, title: 'Stylish Bedroom', category: 'interiors', image: 'assets/img/portfolio/wnetrza_7.jpg', description: 'Cozy bedroom photography highlighting texture and design' },
-    { id: 15, title: 'Premium Kitchen', category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: 'Clean and premium kitchen interior presentation' }
+    { id: 14, title: 'Modern Kitchen', category: 'interiors', image: 'assets/img/portfolio/wnetrza_7.jpg', description: 'Elegant kitchen with wood cabinetry and light stone finishes' },
+    { id: 15, title: 'Premium Kitchen', category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: 'Clean and premium kitchen interior presentation' },
+    { id: 16, title: 'Modern Residential Block', category: 'architecture', image: 'assets/img/portfolio/architektura_4.jpg', description: 'Facade of a contemporary multi-unit residential building' },
+    { id: 17, title: 'Aerial River View', category: 'architecture', image: 'assets/img/portfolio/architektura_5.jpg', description: 'Drone shot of the city and riverside surroundings' },
+    { id: 18, title: 'Street-Side Residence', category: 'architecture', image: 'assets/img/portfolio/architektura_6.jpg', description: 'Modern residential investment shown in neighborhood context' },
+    { id: 19, title: 'Estate Courtyard', category: 'architecture', image: 'assets/img/portfolio/architektura_7.jpg', description: 'Apartment complex with green patio and leisure area' },
+    { id: 20, title: 'Apartment Building with Garden', category: 'architecture', image: 'assets/img/portfolio/architektura_8.jpg', description: 'Modern architecture with a maintained shared outdoor space' },
+    { id: 21, title: 'House from Above', category: 'architecture', image: 'assets/img/portfolio/architektura_9.jpg', description: 'Drone photo of a property with garden and surroundings' },
+    { id: 22, title: 'City Tenement', category: 'architecture', image: 'assets/img/portfolio/architektura_10.jpg', description: 'Classic building facade with office space offering' },
+    { id: 23, title: 'Underground Garage', category: 'business', image: 'assets/img/portfolio/biznes_5.jpg', description: 'Clean documentation of a modern underground parking garage' },
+    { id: 24, title: 'Living and Dining Area', category: 'interiors', image: 'assets/img/portfolio/wnetrza_9.jpg', description: 'Open living zone with teal accent details' },
+    { id: 25, title: 'Bright Empty Interior', category: 'interiors', image: 'assets/img/portfolio/wnetrza_10.jpg', description: 'Freshly renovated space with balcony and city view' }
 ];
 
 /* ============================================
@@ -575,7 +595,17 @@ function getTranslatedPortfolioData() {
         { id: 12, title: portfolio.item12.title, category: 'business', image: 'assets/img/portfolio/biznes_4.jpg', description: portfolio.item12.description },
         { id: 13, title: portfolio.item13.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_6.jpg', description: portfolio.item13.description },
         { id: 14, title: portfolio.item14.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_7.jpg', description: portfolio.item14.description },
-        { id: 15, title: portfolio.item15.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: portfolio.item15.description }
+        { id: 15, title: portfolio.item15.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_8.jpg', description: portfolio.item15.description },
+        { id: 16, title: portfolio.item16.title, category: 'architecture', image: 'assets/img/portfolio/architektura_4.jpg', description: portfolio.item16.description },
+        { id: 17, title: portfolio.item17.title, category: 'architecture', image: 'assets/img/portfolio/architektura_5.jpg', description: portfolio.item17.description },
+        { id: 18, title: portfolio.item18.title, category: 'architecture', image: 'assets/img/portfolio/architektura_6.jpg', description: portfolio.item18.description },
+        { id: 19, title: portfolio.item19.title, category: 'architecture', image: 'assets/img/portfolio/architektura_7.jpg', description: portfolio.item19.description },
+        { id: 20, title: portfolio.item20.title, category: 'architecture', image: 'assets/img/portfolio/architektura_8.jpg', description: portfolio.item20.description },
+        { id: 21, title: portfolio.item21.title, category: 'architecture', image: 'assets/img/portfolio/architektura_9.jpg', description: portfolio.item21.description },
+        { id: 22, title: portfolio.item22.title, category: 'architecture', image: 'assets/img/portfolio/architektura_10.jpg', description: portfolio.item22.description },
+        { id: 23, title: portfolio.item23.title, category: 'business', image: 'assets/img/portfolio/biznes_5.jpg', description: portfolio.item23.description },
+        { id: 24, title: portfolio.item24.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_9.jpg', description: portfolio.item24.description },
+        { id: 25, title: portfolio.item25.title, category: 'interiors', image: 'assets/img/portfolio/wnetrza_10.jpg', description: portfolio.item25.description }
     ];
 }
 
