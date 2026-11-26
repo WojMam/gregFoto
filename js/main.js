@@ -60,8 +60,8 @@ const TRANSLATIONS = {
                 link: 'Zapytaj o dostępność'
             },
             drone: {
-                title: 'Fotografia Dronem',
-                items: ['Widoki z lotu ptaka', 'Dokumentacja terenu', 'Wideo 4K', 'Certyfikat FAA Part 107'],
+                title: 'Zdjęcia i filmy z drona',
+                items: ['Ujęcia nieruchomości z perspektywy lotu ptaka', 'Dynamiczne filmy dronowe', 'Prezentacja otoczenia i lokalizacji', 'Gotowe materiały do ogłoszeń i social mediów'],
                 link: 'Zapytaj o dostępność'
             }
         },
@@ -143,7 +143,7 @@ const TRANSLATIONS = {
             },
             q2: {
                 question: 'Jak wygląda wycena?',
-                answer: 'Ceny są ustalane indywidualnie dla każdego projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo oraz specyficznych wymagań. Po krótkiej rozmowie przygotowujemy precyzyjną wycenę dopasowaną do Twoich potrzeb. Szacunkowe ceny usług poniżej:<br><br>350 zł<br><strong>Małe mieszkanie do 40 m² (kawalerka)</strong><br>10–15 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>450 zł<br><strong>Mieszkanie 40–90 m²</strong><br>15–25 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>700 zł<br><strong>Dom / apartament powyżej 90 m²</strong><br>25–30 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>150 zł<br><strong>Wideo pionowe na social media (30–60 sekund)</strong><br>Krótka prezentacja nieruchomości i okolicy<br>Format idealny do Instagram Reels / TikTok / YouTube Shorts'
+                answer: 'Ceny są ustalane indywidualnie dla każdego projektu i zależą od wielkości nieruchomości, liczby ujęć, długości wideo oraz specyficznych wymagań. Po krótkiej rozmowie przygotowujemy precyzyjną wycenę dopasowaną do Twoich potrzeb. Szacunkowe ceny usług poniżej:<br><br>350 zł<br><strong>Małe mieszkanie do 40 m² (kawalerka)</strong><br>10–15 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>450 zł<br><strong>Mieszkanie 40–90 m²</strong><br>15–25 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>700 zł<br><strong>Dom / apartament powyżej 90 m²</strong><br>25–30 obrobionych zdjęć<br>Wnętrza + detale + budynek<br><br>od 300 zł<br><strong>Realizacje wideo</strong><br>Prezentacja nieruchomości + ujęcia okolicy<br>Dźwięk: lektor studyjny / voice-over nagrywany na miejscu<br>Format idealny do Instagram Reels / TikTok / YouTube Shorts<br><br>300 zł<br><strong>Pakiet dronowy</strong><br>10–15 zdjęć z drona + krótkie ujęcia wideo<br>Prezentacja nieruchomości i najbliższej okolicy<br>Profesjonalna obróbka materiału'
             },
             q3: {
                 question: 'Co muszę przygotować przed sesją?',
